@@ -1,0 +1,36 @@
+@use '../abstracts/variables' as *;
+
+.storage {
+  display: flex;
+  flex-direction: column;
+
+  background-color: $neutral-dark-blue;
+
+  padding: 3em;
+
+  border-radius: 0.8rem;
+
+  position: relative;
+
+  &__info {
+    font-size: 1rem;
+    color: $neutral-pale-blue;
+
+    margin-bottom: 1rem;
+
+    span {
+      color: white;
+      font-weight: $fw-bold;
+    }
+  }
+
+  &__points {
+    margin-top: 0.5rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    color: $neutral-pale-blue;
+    font-weight: $fw-bold;
+  }
+}

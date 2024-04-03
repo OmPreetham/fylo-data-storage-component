@@ -1,0 +1,39 @@
+@use '../abstracts/variables' as *;
+
+.storage__popup {
+  padding: 0.3em 1.8em;
+  border-radius: 0.7rem;
+  position: absolute;
+  top: -25%;
+  right: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: black;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: $fw-bold;
+    color: $neutral-grayish-blue;
+
+    span {
+      font-size: 3rem;
+      margin-right: 0.5rem;
+      color: $neutral-very-dark-blue;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .storage__popup {
+    top: unset;
+    right: unset;
+    bottom: -40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,15 @@
+.components-wrapper {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: end;
+  gap: 2rem;
+
+  margin-inline: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+  .components-wrapper {
+    grid-template-columns: auto;
+  }
+}

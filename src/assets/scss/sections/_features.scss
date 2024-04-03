@@ -1,0 +1,20 @@
+@use '../abstracts/variables' as *;
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  background-color: $neutral-dark-blue;
+
+  padding: 3em;
+  padding-right: 9em;
+
+  border-radius: 0.8rem;
+  border-top-right-radius: 7rem;
+
+  .actions {
+    display: flex;
+    gap: 1rem;
+  }
+}

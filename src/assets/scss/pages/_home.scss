@@ -1,0 +1,42 @@
+@use '../core/topography' as *;
+@use '../abstracts/variables' as *;
+
+html {
+  color: white;
+  font-family: $ff-raleway;
+  font-size: $fs-base;
+}
+
+body {
+  max-width: $root-max-width;
+  min-width: $root-min-width;
+  min-height: $root-min-height;
+
+  margin-inline: auto;
+
+  background-color: $neutral-very-dark-blue;
+  background-image: url(/images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  flex: 1;
+}
+
+.wrapper {
+  max-width: 930px;
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    background-image: url(/images/bg-mobile.png);
+    background-position: center center;
+    background-size: cover;
+  }
+}

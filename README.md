@@ -32,13 +32,13 @@ Make sure you have Node.js and npm (or yarn) installed on your machine.
 1. Clone this repository to your local machine using the following command:
 
    ```
-   git clone https://github.com/OmPreetham/testimonials-grid-section.git
+   git clone https://github.com/OmPreetham/fylo-data-storage-component.git
    ```
 
 1. Navigate into the project directory:
 
    ```
-   cd testimonials-grid-section
+   cd fylo-data-storage-component
    ```
 
 1. Install dependencies using npm:
