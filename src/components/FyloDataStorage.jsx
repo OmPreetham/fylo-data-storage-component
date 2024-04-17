@@ -6,27 +6,27 @@ const FyloDataStorage = () => {
           <section>
             <div className="features">
               <div className="features__title">
-                <img className="logo" src="/images/logo.svg" alt="Logo" />
+                <img className="logo" src="images/logo.svg" alt="Logo" />
               </div>
               <div className="actions">
                 <div className="actions__document">
                   <img
                     className="document-icon"
-                    src="/images/icon-document.svg"
+                    src="images/icon-document.svg"
                     alt="Document Icon"
                   />
                 </div>
                 <div className="actions__folder">
                   <img
                     className="folder-icon"
-                    src="/images/icon-folder.svg"
+                    src="images/icon-folder.svg"
                     alt="Folder Icon"
                   />
                 </div>
                 <div className="actions__upload">
                   <img
                     className="upload-icon"
-                    src="/images/icon-upload.svg"
+                    src="images/icon-upload.svg"
                     alt="Upload Icon"
                   />
                 </div>
